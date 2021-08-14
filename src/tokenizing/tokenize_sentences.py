@@ -1,3 +1,4 @@
+from nltk.tokenize import BlanklineTokenizer
 from nltk.tokenize import sent_tokenize
 # ===
 import nltk.data

@@ -9,3 +9,5 @@ regexp_tokenize("I can't understand you.", "[\w']+")
 # 2
 tokenizer = RegexpTokenizer("[\w']+")
 tokenizer.tokenize("Can't is a contraction.")
+
+whitespace_tokenizer = RegexpTokenizer('\s+', gaps=True)
