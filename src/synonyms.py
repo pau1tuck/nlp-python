@@ -9,7 +9,7 @@ print(lemmas[1].name())
 print([lemma.name() for lemma in syn.lemmas()])
 
 synonyms = []
-for syn in wordnet.synsets('book'):
+for syn in wordnet.synsets('build'):
     for lemma in syn.lemmas():
         synonyms.append(lemma.name())
 print(len(set(synonyms)))
