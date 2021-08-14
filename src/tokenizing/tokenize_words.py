@@ -1,8 +1,8 @@
-from nltk.tokenize import word_tokenize
-from nltk.tokenize import WhitespaceTokenizer
-from nltk.tokenize import TreebankWordTokenizer
-from nltk.tokenize import WordPunctTokenizer
+from nltk.tokenize import word_tokenize  # ===
+from nltk.tokenize import TreebankWordTokenizer  # 'it', "'s"
+from nltk.tokenize import WhitespaceTokenizer  # "it's"
+from nltk.tokenize import WordPunctTokenizer  # 'it', "'", 's'
 
-sentence = "All true tea lovers not only like their tea strong, but like it a little stronger with each year that passes — a fact that's recognized in the extra ration issued to old-age pensioners."
+sentence = "The word_tokenize() function is a wrapper function that calls tokenize() on an instance of the TreebankWordTokenizer class. It works by separating words using spaces and punctuation. It doesn't discard the punctuation, allowing you to decide what to do with it."
 
 print(WhitespaceTokenizer().tokenize(sentence))
