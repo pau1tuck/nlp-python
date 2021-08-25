@@ -4,11 +4,11 @@ from nltk.tokenize import RegexpTokenizer
 # The RegexpTokenizer class works by compiling your pattern, then calling re.findall() on your text.
 
 # 1
-regexp_tokenize("I can't understand you.", "[\w']+")
+regexp_tokenize("I can't understand a word you're saying.", "[\w']+")
 
 # 2
 tokenizer = RegexpTokenizer("[\w']+")
-tokenizer.tokenize("Can't is a contraction.")
+print(tokenizer.tokenize("I can't understand a word you're saying."))
 
 # The gaps parameter, if set to True, is used to find the gaps between the tokens. Otherwise, it is used to find the tokens themselves.
 whitespace_tokenizer = RegexpTokenizer(r'\s+', gaps=True)
