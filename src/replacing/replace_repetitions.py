@@ -1,6 +1,6 @@
 from replacers import RepeatReplacer
 replacer = RepeatReplacer()
 
-replacer.replace('looooove')
-replacer.replace('oooooh')
-replacer.replace('goose')
+print(replacer.replace('looooove'))
+print(replacer.replace('oooooh'))
+print(replacer.replace('goose'))
