@@ -1,0 +1,42 @@
+{
+    "workbench.colorCustomizations": {
+        "[Monokai Dark Soda]": {
+            "activityBar.background": "#1a1a1a",
+            "sideBar.background": "#1a1a1a",
+            "sideBarSectionHeader.background": "#1a1a1a",
+            "editor.background": "#1a1a1a",
+            "editorLineNumber.foreground": "#666565",
+            "editor.lineHighlightBackground": "#1f1f1f",
+            "editor.selectionBackground": "#005397",
+            "editorGroupHeader.tabsBackground": "#1a1a1a",
+            "tab.inactiveBackground": "#1a1a1a",
+            "tab.activeForeground": "#FFFFFF",
+            "tab.border": "#1a1a1a",
+            "statusBar.background": "#222222",
+            "statusBar.noFolderBackground": "#212121",
+            "statusBar.debuggingBackground": "#263238",
+            "editorCursor.foreground": "#00FF00",
+            "editorCursor.background": "#000000"
+        },
+        "terminal.foreground": "#A7A7A7",
+        "terminalCursor.background": "#A7A7A7",
+        "terminalCursor.foreground": "#A7A7A7",
+        "terminal.ansiBlack": "#191919",
+        "terminal.ansiBlue": "#639EE4",
+        "terminal.ansiBrightBlack": "#5F5A60",
+        "terminal.ansiBrightBlue": "#639EE4",
+        "terminal.ansiBrightCyan": "#4BB1A7",
+        "terminal.ansiBrightGreen": "#84B97C",
+        "terminal.ansiBrightMagenta": "#B888E2",
+        "terminal.ansiBrightRed": "#DC657D",
+        "terminal.ansiBrightWhite": "#FFFFFF",
+        "terminal.ansiBrightYellow": "#C3BA63",
+        "terminal.ansiCyan": "#4BB1A7",
+        "terminal.ansiGreen": "#84B97C",
+        "terminal.ansiMagenta": "#B888E2",
+        "terminal.ansiRed": "#DC657D",
+        "terminal.ansiWhite": "#A7A7A7",
+        "terminal.ansiYellow": "#C3BA63",
+        "terminal.background": "#191919"
+    }
+}
